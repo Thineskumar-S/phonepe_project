@@ -1,0 +1,793 @@
+state,year,quater,name,registered_users
+andaman-&-nicobar-islands,2018,Q1,south andaman,5846
+andaman-&-nicobar-islands,2018,Q2,south andaman,8143
+andaman-&-nicobar-islands,2018,Q3,south andaman,10474
+andaman-&-nicobar-islands,2018,Q4,south andaman,13133
+andaman-&-nicobar-islands,2019,Q1,south andaman,15961
+andaman-&-nicobar-islands,2019,Q2,south andaman,18621
+andaman-&-nicobar-islands,2019,Q3,south andaman,20518
+andaman-&-nicobar-islands,2019,Q4,south andaman,22202
+andaman-&-nicobar-islands,2020,Q1,south andaman,24174
+andaman-&-nicobar-islands,2020,Q2,south andaman,27626
+andaman-&-nicobar-islands,2020,Q3,south andaman,34833
+andaman-&-nicobar-islands,2020,Q4,south andaman,43908
+andaman-&-nicobar-islands,2021,Q1,south andaman,48352
+andaman-&-nicobar-islands,2021,Q2,south andaman,51903
+andaman-&-nicobar-islands,2021,Q3,south andaman,55873
+andaman-&-nicobar-islands,2021,Q4,south andaman,59807
+andaman-&-nicobar-islands,2022,Q1,south andaman,63487
+andaman-&-nicobar-islands,2022,Q2,south andaman,66959
+andaman-&-nicobar-islands,2022,Q3,south andaman,70445
+andaman-&-nicobar-islands,2022,Q4,south andaman,73692
+andaman-&-nicobar-islands,2023,Q1,south andaman,77052
+andaman-&-nicobar-islands,2023,Q2,south andaman,80112
+andhra-pradesh,2018,Q1,visakhapatnam,497187
+andhra-pradesh,2018,Q2,visakhapatnam,636052
+andhra-pradesh,2018,Q3,visakhapatnam,769096
+andhra-pradesh,2018,Q4,visakhapatnam,978288
+andhra-pradesh,2019,Q1,visakhapatnam,1174517
+andhra-pradesh,2019,Q2,visakhapatnam,1318740
+andhra-pradesh,2019,Q3,visakhapatnam,1460464
+andhra-pradesh,2019,Q4,visakhapatnam,1620235
+andhra-pradesh,2020,Q1,visakhapatnam,1763581
+andhra-pradesh,2020,Q2,visakhapatnam,1904719
+andhra-pradesh,2020,Q3,visakhapatnam,2058346
+andhra-pradesh,2020,Q4,visakhapatnam,2209658
+andhra-pradesh,2021,Q1,visakhapatnam,2368081
+andhra-pradesh,2021,Q2,visakhapatnam,2526830
+andhra-pradesh,2021,Q3,visakhapatnam,2707931
+andhra-pradesh,2021,Q4,visakhapatnam,2888774
+andhra-pradesh,2022,Q1,visakhapatnam,3061324
+andhra-pradesh,2022,Q2,visakhapatnam,3226029
+andhra-pradesh,2022,Q3,visakhapatnam,3397514
+andhra-pradesh,2022,Q4,visakhapatnam,3566854
+andhra-pradesh,2023,Q1,visakhapatnam,3732544
+andhra-pradesh,2023,Q2,visakhapatnam,3877504
+arunachal-pradesh,2018,Q1,papum pare,7649
+arunachal-pradesh,2018,Q2,papum pare,11418
+arunachal-pradesh,2018,Q3,papum pare,16009
+arunachal-pradesh,2018,Q4,papum pare,21342
+arunachal-pradesh,2019,Q1,papum pare,26298
+arunachal-pradesh,2019,Q2,papum pare,32800
+arunachal-pradesh,2019,Q3,papum pare,38845
+arunachal-pradesh,2019,Q4,papum pare,44746
+arunachal-pradesh,2020,Q1,papum pare,51342
+arunachal-pradesh,2020,Q2,papum pare,59968
+arunachal-pradesh,2020,Q3,papum pare,69419
+arunachal-pradesh,2020,Q4,papum pare,77936
+arunachal-pradesh,2021,Q1,papum pare,84715
+arunachal-pradesh,2021,Q2,papum pare,90871
+arunachal-pradesh,2021,Q3,papum pare,97854
+arunachal-pradesh,2021,Q4,papum pare,104806
+arunachal-pradesh,2022,Q1,papum pare,111271
+arunachal-pradesh,2022,Q2,papum pare,117568
+arunachal-pradesh,2022,Q3,papum pare,124095
+arunachal-pradesh,2022,Q4,papum pare,130306
+arunachal-pradesh,2023,Q1,papum pare,136357
+arunachal-pradesh,2023,Q2,papum pare,141879
+assam,2018,Q1,kamrup metropolitan,87336
+assam,2018,Q2,kamrup metropolitan,124720
+assam,2018,Q3,kamrup metropolitan,164101
+assam,2018,Q4,kamrup metropolitan,214212
+assam,2019,Q1,kamrup metropolitan,255112
+assam,2019,Q2,kamrup metropolitan,299219
+assam,2019,Q3,kamrup metropolitan,340588
+assam,2019,Q4,kamrup metropolitan,373761
+assam,2020,Q1,kamrup metropolitan,412013
+assam,2020,Q2,kamrup metropolitan,457023
+assam,2020,Q3,kamrup metropolitan,499403
+assam,2020,Q4,kamrup metropolitan,546458
+assam,2021,Q1,kamrup metropolitan,589688
+assam,2021,Q2,kamrup metropolitan,630676
+assam,2021,Q3,kamrup metropolitan,677223
+assam,2021,Q4,kamrup metropolitan,723960
+assam,2022,Q1,kamrup metropolitan,767859
+assam,2022,Q2,kamrup metropolitan,810057
+assam,2022,Q3,kamrup metropolitan,854019
+assam,2022,Q4,kamrup metropolitan,897245
+assam,2023,Q1,kamrup metropolitan,938802
+assam,2023,Q2,kamrup metropolitan,975409
+bihar,2018,Q1,patna,425009
+bihar,2018,Q2,patna,568657
+bihar,2018,Q3,patna,684421
+bihar,2018,Q4,patna,826399
+bihar,2019,Q1,patna,964432
+bihar,2019,Q2,patna,1076012
+bihar,2019,Q3,patna,1180262
+bihar,2019,Q4,patna,1289426
+bihar,2020,Q1,patna,1397342
+bihar,2020,Q2,patna,1506233
+bihar,2020,Q3,patna,1625305
+bihar,2020,Q4,patna,1752007
+bihar,2021,Q1,patna,1881439
+bihar,2021,Q2,patna,2010353
+bihar,2021,Q3,patna,2156402
+bihar,2021,Q4,patna,2303852
+bihar,2022,Q1,patna,2443356
+bihar,2022,Q2,patna,2577123
+bihar,2022,Q3,patna,2716533
+bihar,2022,Q4,patna,2854738
+bihar,2023,Q1,patna,2988174
+bihar,2023,Q2,patna,3102247
+chandigarh,2018,Q1,chandigarh,86268
+chandigarh,2018,Q2,chandigarh,115219
+chandigarh,2018,Q3,chandigarh,143893
+chandigarh,2018,Q4,chandigarh,177747
+chandigarh,2019,Q1,chandigarh,209175
+chandigarh,2019,Q2,chandigarh,240439
+chandigarh,2019,Q3,chandigarh,267337
+chandigarh,2019,Q4,chandigarh,289590
+chandigarh,2020,Q1,chandigarh,312887
+chandigarh,2020,Q2,chandigarh,336351
+chandigarh,2020,Q3,chandigarh,362588
+chandigarh,2020,Q4,chandigarh,391402
+chandigarh,2021,Q1,chandigarh,419998
+chandigarh,2021,Q2,chandigarh,448572
+chandigarh,2021,Q3,chandigarh,480463
+chandigarh,2021,Q4,chandigarh,512092
+chandigarh,2022,Q1,chandigarh,541549
+chandigarh,2022,Q2,chandigarh,569582
+chandigarh,2022,Q3,chandigarh,598698
+chandigarh,2022,Q4,chandigarh,627563
+chandigarh,2023,Q1,chandigarh,654522
+chandigarh,2023,Q2,chandigarh,678662
+chhattisgarh,2018,Q1,raipur,135308
+chhattisgarh,2018,Q2,raipur,185747
+chhattisgarh,2018,Q3,raipur,231146
+chhattisgarh,2018,Q4,raipur,289198
+chhattisgarh,2019,Q1,raipur,351495
+chhattisgarh,2019,Q2,raipur,405792
+chhattisgarh,2019,Q3,raipur,455785
+chhattisgarh,2019,Q4,raipur,506122
+chhattisgarh,2020,Q1,raipur,559412
+chhattisgarh,2020,Q2,raipur,616931
+chhattisgarh,2020,Q3,raipur,679027
+chhattisgarh,2020,Q4,raipur,743167
+chhattisgarh,2021,Q1,raipur,800224
+chhattisgarh,2021,Q2,raipur,855848
+chhattisgarh,2021,Q3,raipur,917950
+chhattisgarh,2021,Q4,raipur,979741
+chhattisgarh,2022,Q1,raipur,1038105
+chhattisgarh,2022,Q2,raipur,1093318
+chhattisgarh,2022,Q3,raipur,1150501
+chhattisgarh,2022,Q4,raipur,1205632
+chhattisgarh,2023,Q1,raipur,1260366
+chhattisgarh,2023,Q2,raipur,1308762
+dadra-&-nagar-haveli-&-daman-&-diu,2018,Q1,dadra and nagar haveli,32028
+dadra-&-nagar-haveli-&-daman-&-diu,2018,Q2,dadra and nagar haveli,43085
+dadra-&-nagar-haveli-&-daman-&-diu,2018,Q3,dadra and nagar haveli,55626
+dadra-&-nagar-haveli-&-daman-&-diu,2018,Q4,dadra and nagar haveli,69833
+dadra-&-nagar-haveli-&-daman-&-diu,2019,Q1,dadra and nagar haveli,83987
+dadra-&-nagar-haveli-&-daman-&-diu,2019,Q2,dadra and nagar haveli,94382
+dadra-&-nagar-haveli-&-daman-&-diu,2019,Q3,dadra and nagar haveli,105329
+dadra-&-nagar-haveli-&-daman-&-diu,2019,Q4,dadra and nagar haveli,117805
+dadra-&-nagar-haveli-&-daman-&-diu,2020,Q1,dadra and nagar haveli,130255
+dadra-&-nagar-haveli-&-daman-&-diu,2020,Q2,dadra and nagar haveli,146003
+dadra-&-nagar-haveli-&-daman-&-diu,2020,Q3,dadra and nagar haveli,160183
+dadra-&-nagar-haveli-&-daman-&-diu,2020,Q4,dadra and nagar haveli,177432
+dadra-&-nagar-haveli-&-daman-&-diu,2021,Q1,dadra and nagar haveli,192262
+dadra-&-nagar-haveli-&-daman-&-diu,2021,Q2,dadra and nagar haveli,206516
+dadra-&-nagar-haveli-&-daman-&-diu,2021,Q3,dadra and nagar haveli,222731
+dadra-&-nagar-haveli-&-daman-&-diu,2021,Q4,dadra and nagar haveli,239110
+dadra-&-nagar-haveli-&-daman-&-diu,2022,Q1,dadra and nagar haveli,254577
+dadra-&-nagar-haveli-&-daman-&-diu,2022,Q2,dadra and nagar haveli,269344
+dadra-&-nagar-haveli-&-daman-&-diu,2022,Q3,dadra and nagar haveli,284923
+dadra-&-nagar-haveli-&-daman-&-diu,2022,Q4,dadra and nagar haveli,300217
+dadra-&-nagar-haveli-&-daman-&-diu,2023,Q1,dadra and nagar haveli,314951
+dadra-&-nagar-haveli-&-daman-&-diu,2023,Q2,dadra and nagar haveli,328125
+delhi,2018,Q1,west,308558
+delhi,2018,Q2,west,406877
+delhi,2018,Q3,west,515854
+delhi,2018,Q4,west,686653
+delhi,2019,Q1,west,820526
+delhi,2019,Q2,west,919096
+delhi,2019,Q3,west,1008836
+delhi,2019,Q4,west,1081496
+delhi,2020,Q1,west,1160353
+delhi,2020,Q2,west,1243875
+delhi,2020,Q3,west,1343895
+delhi,2020,Q4,west,1451042
+delhi,2021,Q1,west,1559112
+delhi,2021,Q2,west,1666267
+delhi,2021,Q3,west,1785309
+delhi,2021,Q4,west,1905278
+delhi,2022,Q1,west,2017435
+delhi,2022,Q2,west,2124626
+delhi,2022,Q3,west,2235907
+delhi,2022,Q4,west,2348063
+delhi,2023,Q1,west,2453869
+delhi,2023,Q2,west,2546575
+goa,2018,Q1,north goa,57769
+goa,2018,Q2,north goa,76192
+goa,2018,Q3,north goa,95307
+goa,2018,Q4,north goa,121001
+goa,2019,Q1,north goa,147802
+goa,2019,Q2,north goa,173002
+goa,2019,Q3,north goa,197361
+goa,2019,Q4,north goa,220385
+goa,2020,Q1,north goa,244309
+goa,2020,Q2,north goa,267533
+goa,2020,Q3,north goa,294195
+goa,2020,Q4,north goa,326479
+goa,2021,Q1,north goa,352593
+goa,2021,Q2,north goa,376703
+goa,2021,Q3,north goa,403952
+goa,2021,Q4,north goa,430814
+goa,2022,Q1,north goa,456250
+goa,2022,Q2,north goa,480353
+goa,2022,Q3,north goa,504946
+goa,2022,Q4,north goa,527826
+goa,2023,Q1,north goa,550554
+goa,2023,Q2,north goa,571111
+gujarat,2018,Q1,ahmadabad,572811
+gujarat,2018,Q2,ahmadabad,751746
+gujarat,2018,Q3,ahmadabad,919252
+gujarat,2018,Q4,ahmadabad,1212636
+gujarat,2019,Q1,ahmadabad,1450100
+gujarat,2019,Q2,ahmadabad,1656341
+gujarat,2019,Q3,ahmadabad,1848860
+gujarat,2019,Q4,ahmadabad,2015947
+gujarat,2020,Q1,ahmadabad,2185983
+gujarat,2020,Q2,ahmadabad,2384154
+gujarat,2020,Q3,ahmadabad,2580178
+gujarat,2020,Q4,ahmadabad,2787991
+gujarat,2021,Q1,ahmadabad,2999575
+gujarat,2021,Q2,ahmadabad,3209841
+gujarat,2021,Q3,ahmadabad,3445024
+gujarat,2021,Q4,ahmadabad,3679243
+gujarat,2022,Q1,ahmadabad,3897869
+gujarat,2022,Q2,ahmadabad,4105172
+gujarat,2022,Q3,ahmadabad,4319512
+gujarat,2022,Q4,ahmadabad,4530853
+gujarat,2023,Q1,ahmadabad,4734630
+gujarat,2023,Q2,ahmadabad,4913610
+haryana,2018,Q1,gurugram,474081
+haryana,2018,Q2,gurugram,621718
+haryana,2018,Q3,gurugram,767369
+haryana,2018,Q4,gurugram,967781
+haryana,2019,Q1,gurugram,1159832
+haryana,2019,Q2,gurugram,1307319
+haryana,2019,Q3,gurugram,1447473
+haryana,2019,Q4,gurugram,1574240
+haryana,2020,Q1,gurugram,1700505
+haryana,2020,Q2,gurugram,1809777
+haryana,2020,Q3,gurugram,1949331
+haryana,2020,Q4,gurugram,2104240
+haryana,2021,Q1,gurugram,2262589
+haryana,2021,Q2,gurugram,2416391
+haryana,2021,Q3,gurugram,2589324
+haryana,2021,Q4,gurugram,2764490
+haryana,2022,Q1,gurugram,2929873
+haryana,2022,Q2,gurugram,3088176
+haryana,2022,Q3,gurugram,3251792
+haryana,2022,Q4,gurugram,3416098
+haryana,2023,Q1,gurugram,3572322
+haryana,2023,Q2,gurugram,3707352
+himachal-pradesh,2018,Q1,solan,50035
+himachal-pradesh,2018,Q2,solan,68950
+himachal-pradesh,2018,Q3,solan,88724
+himachal-pradesh,2018,Q4,solan,113278
+himachal-pradesh,2019,Q1,solan,139300
+himachal-pradesh,2019,Q2,solan,159989
+himachal-pradesh,2019,Q3,solan,178922
+himachal-pradesh,2019,Q4,solan,198962
+himachal-pradesh,2020,Q1,solan,220293
+himachal-pradesh,2020,Q2,solan,243732
+himachal-pradesh,2020,Q3,solan,265701
+himachal-pradesh,2020,Q4,solan,289889
+himachal-pradesh,2021,Q1,solan,312360
+himachal-pradesh,2021,Q2,solan,334716
+himachal-pradesh,2021,Q3,solan,360324
+himachal-pradesh,2021,Q4,solan,385901
+himachal-pradesh,2022,Q1,solan,410487
+himachal-pradesh,2022,Q2,solan,433753
+himachal-pradesh,2022,Q3,solan,457393
+himachal-pradesh,2022,Q4,solan,479537
+himachal-pradesh,2023,Q1,solan,501947
+himachal-pradesh,2023,Q2,solan,523060
+jammu-&-kashmir,2018,Q1,jammu,45294
+jammu-&-kashmir,2018,Q2,jammu,64681
+jammu-&-kashmir,2018,Q3,jammu,86877
+jammu-&-kashmir,2018,Q4,jammu,113005
+jammu-&-kashmir,2019,Q1,jammu,134408
+jammu-&-kashmir,2019,Q2,jammu,160241
+jammu-&-kashmir,2019,Q3,jammu,169849
+jammu-&-kashmir,2019,Q4,jammu,174858
+jammu-&-kashmir,2020,Q1,jammu,191031
+jammu-&-kashmir,2020,Q2,jammu,220805
+jammu-&-kashmir,2020,Q3,jammu,248814
+jammu-&-kashmir,2020,Q4,jammu,282463
+jammu-&-kashmir,2021,Q1,jammu,307670
+jammu-&-kashmir,2021,Q2,jammu,329625
+jammu-&-kashmir,2021,Q3,jammu,354280
+jammu-&-kashmir,2021,Q4,jammu,378618
+jammu-&-kashmir,2022,Q1,jammu,401675
+jammu-&-kashmir,2022,Q2,jammu,423398
+jammu-&-kashmir,2022,Q3,jammu,445345
+jammu-&-kashmir,2022,Q4,jammu,465635
+jammu-&-kashmir,2023,Q1,jammu,485903
+jammu-&-kashmir,2023,Q2,jammu,504935
+jharkhand,2018,Q1,ranchi,159444
+jharkhand,2018,Q2,ranchi,216019
+jharkhand,2018,Q3,ranchi,265341
+jharkhand,2018,Q4,ranchi,326599
+jharkhand,2019,Q1,ranchi,386608
+jharkhand,2019,Q2,ranchi,441616
+jharkhand,2019,Q3,ranchi,495155
+jharkhand,2019,Q4,ranchi,548293
+jharkhand,2020,Q1,ranchi,602664
+jharkhand,2020,Q2,ranchi,658759
+jharkhand,2020,Q3,ranchi,722352
+jharkhand,2020,Q4,ranchi,791146
+jharkhand,2021,Q1,ranchi,853943
+jharkhand,2021,Q2,ranchi,913972
+jharkhand,2021,Q3,ranchi,982147
+jharkhand,2021,Q4,ranchi,1050479
+jharkhand,2022,Q1,ranchi,1115386
+jharkhand,2022,Q2,ranchi,1176707
+jharkhand,2022,Q3,ranchi,1240013
+jharkhand,2022,Q4,ranchi,1301412
+jharkhand,2023,Q1,ranchi,1361772
+jharkhand,2023,Q2,ranchi,1415752
+karnataka,2018,Q1,bengaluru urban,1922368
+karnataka,2018,Q2,bengaluru urban,2553312
+karnataka,2018,Q3,bengaluru urban,3167597
+karnataka,2018,Q4,bengaluru urban,4126734
+karnataka,2019,Q1,bengaluru urban,5003207
+karnataka,2019,Q2,bengaluru urban,5694165
+karnataka,2019,Q3,bengaluru urban,6383771
+karnataka,2019,Q4,bengaluru urban,7016836
+karnataka,2020,Q1,bengaluru urban,7564577
+karnataka,2020,Q2,bengaluru urban,8028070
+karnataka,2020,Q3,bengaluru urban,8611452
+karnataka,2020,Q4,bengaluru urban,9286243
+karnataka,2021,Q1,bengaluru urban,9955387
+karnataka,2021,Q2,bengaluru urban,10604609
+karnataka,2021,Q3,bengaluru urban,11321012
+karnataka,2021,Q4,bengaluru urban,12038775
+karnataka,2022,Q1,bengaluru urban,12707664
+karnataka,2022,Q2,bengaluru urban,13342916
+karnataka,2022,Q3,bengaluru urban,13997602
+karnataka,2022,Q4,bengaluru urban,14654455
+karnataka,2023,Q1,bengaluru urban,15290372
+karnataka,2023,Q2,bengaluru urban,15812243
+kerala,2018,Q1,ernakulam,159188
+kerala,2018,Q2,ernakulam,211942
+kerala,2018,Q3,ernakulam,263779
+kerala,2018,Q4,ernakulam,341257
+kerala,2019,Q1,ernakulam,409812
+kerala,2019,Q2,ernakulam,479320
+kerala,2019,Q3,ernakulam,553200
+kerala,2019,Q4,ernakulam,633101
+kerala,2020,Q1,ernakulam,716945
+kerala,2020,Q2,ernakulam,798771
+kerala,2020,Q3,ernakulam,917356
+kerala,2020,Q4,ernakulam,1039584
+kerala,2021,Q1,ernakulam,1126122
+kerala,2021,Q2,ernakulam,1203623
+kerala,2021,Q3,ernakulam,1289089
+kerala,2021,Q4,ernakulam,1374081
+kerala,2022,Q1,ernakulam,1454447
+kerala,2022,Q2,ernakulam,1531113
+kerala,2022,Q3,ernakulam,1611052
+kerala,2022,Q4,ernakulam,1687311
+kerala,2023,Q1,ernakulam,1760620
+kerala,2023,Q2,ernakulam,1826879
+ladakh,2018,Q1,leh ladakh,7255
+ladakh,2018,Q2,leh ladakh,10733
+ladakh,2018,Q3,leh ladakh,14617
+ladakh,2018,Q4,leh ladakh,19447
+ladakh,2019,Q1,leh ladakh,23891
+ladakh,2019,Q2,leh ladakh,28390
+ladakh,2019,Q3,leh ladakh,31455
+ladakh,2019,Q4,leh ladakh,34770
+ladakh,2020,Q1,leh ladakh,38079
+ladakh,2020,Q2,leh ladakh,41782
+ladakh,2020,Q3,leh ladakh,45587
+ladakh,2020,Q4,leh ladakh,50252
+ladakh,2021,Q1,leh ladakh,54095
+ladakh,2021,Q2,leh ladakh,57971
+ladakh,2021,Q3,leh ladakh,62633
+ladakh,2021,Q4,leh ladakh,67049
+ladakh,2022,Q1,leh ladakh,71173
+ladakh,2022,Q2,leh ladakh,75042
+ladakh,2022,Q3,leh ladakh,78769
+ladakh,2022,Q4,leh ladakh,82011
+ladakh,2023,Q1,leh ladakh,85582
+ladakh,2023,Q2,leh ladakh,89148
+lakshadweep,2018,Q1,lakshadweep,501
+lakshadweep,2018,Q2,lakshadweep,686
+lakshadweep,2018,Q3,lakshadweep,918
+lakshadweep,2018,Q4,lakshadweep,1156
+lakshadweep,2019,Q1,lakshadweep,1416
+lakshadweep,2019,Q2,lakshadweep,1747
+lakshadweep,2019,Q3,lakshadweep,2117
+lakshadweep,2019,Q4,lakshadweep,2427
+lakshadweep,2020,Q1,lakshadweep,2772
+lakshadweep,2020,Q2,lakshadweep,3187
+lakshadweep,2020,Q3,lakshadweep,3644
+lakshadweep,2020,Q4,lakshadweep,4179
+lakshadweep,2021,Q1,lakshadweep,4577
+lakshadweep,2021,Q2,lakshadweep,4896
+lakshadweep,2021,Q3,lakshadweep,5287
+lakshadweep,2021,Q4,lakshadweep,5638
+lakshadweep,2022,Q1,lakshadweep,5990
+lakshadweep,2022,Q2,lakshadweep,6327
+lakshadweep,2022,Q3,lakshadweep,6645
+lakshadweep,2022,Q4,lakshadweep,6961
+lakshadweep,2023,Q1,lakshadweep,7267
+lakshadweep,2023,Q2,lakshadweep,7585
+madhya-pradesh,2018,Q1,indore,366977
+madhya-pradesh,2018,Q2,indore,479904
+madhya-pradesh,2018,Q3,indore,585621
+madhya-pradesh,2018,Q4,indore,712479
+madhya-pradesh,2019,Q1,indore,844465
+madhya-pradesh,2019,Q2,indore,955207
+madhya-pradesh,2019,Q3,indore,1071598
+madhya-pradesh,2019,Q4,indore,1181500
+madhya-pradesh,2020,Q1,indore,1287857
+madhya-pradesh,2020,Q2,indore,1410157
+madhya-pradesh,2020,Q3,indore,1524036
+madhya-pradesh,2020,Q4,indore,1645564
+madhya-pradesh,2021,Q1,indore,1769869
+madhya-pradesh,2021,Q2,indore,1892259
+madhya-pradesh,2021,Q3,indore,2028266
+madhya-pradesh,2021,Q4,indore,2164101
+madhya-pradesh,2022,Q1,indore,2291709
+madhya-pradesh,2022,Q2,indore,2412576
+madhya-pradesh,2022,Q3,indore,2537328
+madhya-pradesh,2022,Q4,indore,2660518
+madhya-pradesh,2023,Q1,indore,2780295
+madhya-pradesh,2023,Q2,indore,2883610
+maharashtra,2018,Q1,pune,1211643
+maharashtra,2018,Q2,pune,1592293
+maharashtra,2018,Q3,pune,1974138
+maharashtra,2018,Q4,pune,2498852
+maharashtra,2019,Q1,pune,3038402
+maharashtra,2019,Q2,pune,3514081
+maharashtra,2019,Q3,pune,4004991
+maharashtra,2019,Q4,pune,4416899
+maharashtra,2020,Q1,pune,4802397
+maharashtra,2020,Q2,pune,5144688
+maharashtra,2020,Q3,pune,5546002
+maharashtra,2020,Q4,pune,6033615
+maharashtra,2021,Q1,pune,6481971
+maharashtra,2021,Q2,pune,6915820
+maharashtra,2021,Q3,pune,7398336
+maharashtra,2021,Q4,pune,7880431
+maharashtra,2022,Q1,pune,8331582
+maharashtra,2022,Q2,pune,8757249
+maharashtra,2022,Q3,pune,9194074
+maharashtra,2022,Q4,pune,9622338
+maharashtra,2023,Q1,pune,10037022
+maharashtra,2023,Q2,pune,10396344
+manipur,2018,Q1,imphal west,11304
+manipur,2018,Q2,imphal west,16541
+manipur,2018,Q3,imphal west,21696
+manipur,2018,Q4,imphal west,28383
+manipur,2019,Q1,imphal west,33668
+manipur,2019,Q2,imphal west,39303
+manipur,2019,Q3,imphal west,45268
+manipur,2019,Q4,imphal west,51063
+manipur,2020,Q1,imphal west,57485
+manipur,2020,Q2,imphal west,67897
+manipur,2020,Q3,imphal west,79723
+manipur,2020,Q4,imphal west,88777
+manipur,2021,Q1,imphal west,96101
+manipur,2021,Q2,imphal west,102833
+manipur,2021,Q3,imphal west,110506
+manipur,2021,Q4,imphal west,118056
+manipur,2022,Q1,imphal west,125131
+manipur,2022,Q2,imphal west,131901
+manipur,2022,Q3,imphal west,138892
+manipur,2022,Q4,imphal west,145422
+manipur,2023,Q1,imphal west,151777
+manipur,2023,Q2,imphal west,157911
+meghalaya,2018,Q1,east khasi hills,9310
+meghalaya,2018,Q2,east khasi hills,12907
+meghalaya,2018,Q3,east khasi hills,17543
+meghalaya,2018,Q4,east khasi hills,22845
+meghalaya,2019,Q1,east khasi hills,27937
+meghalaya,2019,Q2,east khasi hills,33377
+meghalaya,2019,Q3,east khasi hills,38761
+meghalaya,2019,Q4,east khasi hills,43484
+meghalaya,2020,Q1,east khasi hills,49251
+meghalaya,2020,Q2,east khasi hills,57322
+meghalaya,2020,Q3,east khasi hills,65268
+meghalaya,2020,Q4,east khasi hills,72639
+meghalaya,2021,Q1,east khasi hills,78429
+meghalaya,2021,Q2,east khasi hills,84124
+meghalaya,2021,Q3,east khasi hills,90505
+meghalaya,2021,Q4,east khasi hills,96942
+meghalaya,2022,Q1,east khasi hills,102838
+meghalaya,2022,Q2,east khasi hills,108330
+meghalaya,2022,Q3,east khasi hills,113816
+meghalaya,2022,Q4,east khasi hills,118978
+meghalaya,2023,Q1,east khasi hills,124181
+meghalaya,2023,Q2,east khasi hills,129260
+mizoram,2018,Q1,aizawl,4550
+mizoram,2018,Q2,aizawl,6211
+mizoram,2018,Q3,aizawl,8460
+mizoram,2018,Q4,aizawl,11131
+mizoram,2019,Q1,aizawl,13422
+mizoram,2019,Q2,aizawl,15934
+mizoram,2019,Q3,aizawl,18992
+mizoram,2019,Q4,aizawl,21865
+mizoram,2020,Q1,aizawl,25253
+mizoram,2020,Q2,aizawl,29637
+mizoram,2020,Q3,aizawl,36225
+mizoram,2020,Q4,aizawl,41500
+mizoram,2021,Q1,aizawl,45103
+mizoram,2021,Q2,aizawl,48525
+mizoram,2021,Q3,aizawl,52313
+mizoram,2021,Q4,aizawl,56005
+mizoram,2022,Q1,aizawl,59433
+mizoram,2022,Q2,aizawl,62605
+mizoram,2022,Q3,aizawl,65940
+mizoram,2022,Q4,aizawl,68925
+mizoram,2023,Q1,aizawl,71979
+mizoram,2023,Q2,aizawl,74977
+nagaland,2018,Q1,dimapur,8249
+nagaland,2018,Q2,dimapur,12093
+nagaland,2018,Q3,dimapur,17039
+nagaland,2018,Q4,dimapur,22603
+nagaland,2019,Q1,dimapur,28091
+nagaland,2019,Q2,dimapur,34567
+nagaland,2019,Q3,dimapur,41036
+nagaland,2019,Q4,dimapur,47000
+nagaland,2020,Q1,dimapur,53696
+nagaland,2020,Q2,dimapur,63398
+nagaland,2020,Q3,dimapur,79061
+nagaland,2020,Q4,dimapur,87807
+nagaland,2021,Q1,dimapur,94968
+nagaland,2021,Q2,dimapur,101835
+nagaland,2021,Q3,dimapur,109644
+nagaland,2021,Q4,dimapur,117388
+nagaland,2022,Q1,dimapur,124644
+nagaland,2022,Q2,dimapur,131738
+nagaland,2022,Q3,dimapur,139011
+nagaland,2022,Q4,dimapur,145923
+nagaland,2023,Q1,dimapur,152828
+nagaland,2023,Q2,dimapur,159224
+odisha,2018,Q1,khordha,308390
+odisha,2018,Q2,khordha,406689
+odisha,2018,Q3,khordha,499472
+odisha,2018,Q4,khordha,626645
+odisha,2019,Q1,khordha,745457
+odisha,2019,Q2,khordha,826007
+odisha,2019,Q3,khordha,916565
+odisha,2019,Q4,khordha,1014134
+odisha,2020,Q1,khordha,1083466
+odisha,2020,Q2,khordha,1152010
+odisha,2020,Q3,khordha,1232760
+odisha,2020,Q4,khordha,1323794
+odisha,2021,Q1,khordha,1415897
+odisha,2021,Q2,khordha,1511068
+odisha,2021,Q3,khordha,1618171
+odisha,2021,Q4,khordha,1725313
+odisha,2022,Q1,khordha,1827307
+odisha,2022,Q2,khordha,1924289
+odisha,2022,Q3,khordha,2025108
+odisha,2022,Q4,khordha,2124474
+odisha,2023,Q1,khordha,2220922
+odisha,2023,Q2,khordha,2305026
+puducherry,2018,Q1,puducherry,42117
+puducherry,2018,Q2,puducherry,55513
+puducherry,2018,Q3,puducherry,68634
+puducherry,2018,Q4,puducherry,92629
+puducherry,2019,Q1,puducherry,112798
+puducherry,2019,Q2,puducherry,132703
+puducherry,2019,Q3,puducherry,150642
+puducherry,2019,Q4,puducherry,173175
+puducherry,2020,Q1,puducherry,195398
+puducherry,2020,Q2,puducherry,215429
+puducherry,2020,Q3,puducherry,239707
+puducherry,2020,Q4,puducherry,267946
+puducherry,2021,Q1,puducherry,290107
+puducherry,2021,Q2,puducherry,309892
+puducherry,2021,Q3,puducherry,332193
+puducherry,2021,Q4,puducherry,354425
+puducherry,2022,Q1,puducherry,375238
+puducherry,2022,Q2,puducherry,394977
+puducherry,2022,Q3,puducherry,415847
+puducherry,2022,Q4,puducherry,436067
+puducherry,2023,Q1,puducherry,455449
+puducherry,2023,Q2,puducherry,472714
+punjab,2018,Q1,ludhiana,168625
+punjab,2018,Q2,ludhiana,230404
+punjab,2018,Q3,ludhiana,296414
+punjab,2018,Q4,ludhiana,378237
+punjab,2019,Q1,ludhiana,454370
+punjab,2019,Q2,ludhiana,528745
+punjab,2019,Q3,ludhiana,601479
+punjab,2019,Q4,ludhiana,671579
+punjab,2020,Q1,ludhiana,756590
+punjab,2020,Q2,ludhiana,853140
+punjab,2020,Q3,ludhiana,944936
+punjab,2020,Q4,ludhiana,1037696
+punjab,2021,Q1,ludhiana,1121835
+punjab,2021,Q2,ludhiana,1204126
+punjab,2021,Q3,ludhiana,1296796
+punjab,2021,Q4,ludhiana,1388951
+punjab,2022,Q1,ludhiana,1476288
+punjab,2022,Q2,ludhiana,1558996
+punjab,2022,Q3,ludhiana,1644780
+punjab,2022,Q4,ludhiana,1728119
+punjab,2023,Q1,ludhiana,1807587
+punjab,2023,Q2,ludhiana,1883319
+rajasthan,2018,Q1,jaipur,900773
+rajasthan,2018,Q2,jaipur,1182983
+rajasthan,2018,Q3,jaipur,1438305
+rajasthan,2018,Q4,jaipur,1733893
+rajasthan,2019,Q1,jaipur,2060175
+rajasthan,2019,Q2,jaipur,2290462
+rajasthan,2019,Q3,jaipur,2520933
+rajasthan,2019,Q4,jaipur,2746860
+rajasthan,2020,Q1,jaipur,2966508
+rajasthan,2020,Q2,jaipur,3182014
+rajasthan,2020,Q3,jaipur,3433167
+rajasthan,2020,Q4,jaipur,3679874
+rajasthan,2021,Q1,jaipur,3951866
+rajasthan,2021,Q2,jaipur,4226231
+rajasthan,2021,Q3,jaipur,4534297
+rajasthan,2021,Q4,jaipur,4841883
+rajasthan,2022,Q1,jaipur,5133527
+rajasthan,2022,Q2,jaipur,5409763
+rajasthan,2022,Q3,jaipur,5696726
+rajasthan,2022,Q4,jaipur,5975863
+rajasthan,2023,Q1,jaipur,6247095
+rajasthan,2023,Q2,jaipur,6490210
+sikkim,2018,Q1,east,12749
+sikkim,2018,Q2,east,17767
+sikkim,2018,Q3,east,23460
+sikkim,2018,Q4,east,29948
+sikkim,2019,Q1,east,36124
+sikkim,2019,Q2,east,43048
+sikkim,2019,Q3,east,49404
+sikkim,2019,Q4,east,55340
+sikkim,2020,Q1,east,61820
+sikkim,2020,Q2,east,69829
+sikkim,2020,Q3,east,78018
+sikkim,2020,Q4,east,85770
+sikkim,2021,Q1,east,92502
+sikkim,2021,Q2,east,99077
+sikkim,2021,Q3,east,106352
+sikkim,2021,Q4,east,113537
+sikkim,2022,Q1,east,120360
+sikkim,2022,Q2,east,126666
+sikkim,2022,Q3,east,133152
+sikkim,2022,Q4,east,139175
+sikkim,2023,Q1,east,145199
+sikkim,2023,Q2,east,150852
+tamil-nadu,2018,Q1,chennai,292004
+tamil-nadu,2018,Q2,chennai,401349
+tamil-nadu,2018,Q3,chennai,511138
+tamil-nadu,2018,Q4,chennai,689276
+tamil-nadu,2019,Q1,chennai,830586
+tamil-nadu,2019,Q2,chennai,969955
+tamil-nadu,2019,Q3,chennai,1090190
+tamil-nadu,2019,Q4,chennai,1216610
+tamil-nadu,2020,Q1,chennai,1340762
+tamil-nadu,2020,Q2,chennai,1436722
+tamil-nadu,2020,Q3,chennai,1566152
+tamil-nadu,2020,Q4,chennai,1731527
+tamil-nadu,2021,Q1,chennai,1865001
+tamil-nadu,2021,Q2,chennai,1988355
+tamil-nadu,2021,Q3,chennai,2124347
+tamil-nadu,2021,Q4,chennai,2261346
+tamil-nadu,2022,Q1,chennai,2388315
+tamil-nadu,2022,Q2,chennai,2509588
+tamil-nadu,2022,Q3,chennai,2635738
+tamil-nadu,2022,Q4,chennai,2763151
+tamil-nadu,2023,Q1,chennai,2885933
+tamil-nadu,2023,Q2,chennai,2987502
+telangana,2018,Q1,hyderabad,655175
+telangana,2018,Q2,hyderabad,842483
+telangana,2018,Q3,hyderabad,1024241
+telangana,2018,Q4,hyderabad,1336872
+telangana,2019,Q1,hyderabad,1638436
+telangana,2019,Q2,hyderabad,1856926
+telangana,2019,Q3,hyderabad,2071673
+telangana,2019,Q4,hyderabad,2283903
+telangana,2020,Q1,hyderabad,2483843
+telangana,2020,Q2,hyderabad,2653534
+telangana,2020,Q3,hyderabad,2875965
+telangana,2020,Q4,hyderabad,3142385
+telangana,2021,Q1,hyderabad,3379663
+telangana,2021,Q2,hyderabad,3598337
+telangana,2021,Q3,hyderabad,3839513
+telangana,2021,Q4,hyderabad,4081185
+telangana,2022,Q1,hyderabad,4306136
+telangana,2022,Q2,hyderabad,4519625
+telangana,2022,Q3,hyderabad,4739891
+telangana,2022,Q4,hyderabad,4962214
+telangana,2023,Q1,hyderabad,5176899
+telangana,2023,Q2,hyderabad,5349842
+tripura,2018,Q1,west tripura,27242
+tripura,2018,Q2,west tripura,40345
+tripura,2018,Q3,west tripura,53531
+tripura,2018,Q4,west tripura,67549
+tripura,2019,Q1,west tripura,79732
+tripura,2019,Q2,west tripura,93241
+tripura,2019,Q3,west tripura,104949
+tripura,2019,Q4,west tripura,114108
+tripura,2020,Q1,west tripura,124538
+tripura,2020,Q2,west tripura,137156
+tripura,2020,Q3,west tripura,151432
+tripura,2020,Q4,west tripura,163752
+tripura,2021,Q1,west tripura,175841
+tripura,2021,Q2,west tripura,188123
+tripura,2021,Q3,west tripura,202122
+tripura,2021,Q4,west tripura,215860
+tripura,2022,Q1,west tripura,229161
+tripura,2022,Q2,west tripura,242041
+tripura,2022,Q3,west tripura,255161
+tripura,2022,Q4,west tripura,267713
+tripura,2023,Q1,west tripura,280021
+tripura,2023,Q2,west tripura,291531
+uttar-pradesh,2018,Q1,gautam buddha nagar,448768
+uttar-pradesh,2018,Q2,gautam buddha nagar,586350
+uttar-pradesh,2018,Q3,gautam buddha nagar,727480
+uttar-pradesh,2018,Q4,gautam buddha nagar,951342
+uttar-pradesh,2019,Q1,gautam buddha nagar,1143614
+uttar-pradesh,2019,Q2,gautam buddha nagar,1282816
+uttar-pradesh,2019,Q3,gautam buddha nagar,1415905
+uttar-pradesh,2019,Q4,gautam buddha nagar,1537791
+uttar-pradesh,2020,Q1,gautam buddha nagar,1656331
+uttar-pradesh,2020,Q2,gautam buddha nagar,1756163
+uttar-pradesh,2020,Q3,gautam buddha nagar,1885370
+uttar-pradesh,2020,Q4,gautam buddha nagar,2030178
+uttar-pradesh,2021,Q1,gautam buddha nagar,2181874
+uttar-pradesh,2021,Q2,gautam buddha nagar,2329954
+uttar-pradesh,2021,Q3,gautam buddha nagar,2496114
+uttar-pradesh,2021,Q4,gautam buddha nagar,2664034
+uttar-pradesh,2022,Q1,gautam buddha nagar,2822463
+uttar-pradesh,2022,Q2,gautam buddha nagar,2973360
+uttar-pradesh,2022,Q3,gautam buddha nagar,3130224
+uttar-pradesh,2022,Q4,gautam buddha nagar,3286371
+uttar-pradesh,2023,Q1,gautam buddha nagar,3434422
+uttar-pradesh,2023,Q2,gautam buddha nagar,3562632
+uttarakhand,2018,Q1,dehradun,147998
+uttarakhand,2018,Q2,dehradun,198296
+uttarakhand,2018,Q3,dehradun,246477
+uttarakhand,2018,Q4,dehradun,306969
+uttarakhand,2019,Q1,dehradun,369578
+uttarakhand,2019,Q2,dehradun,428353
+uttarakhand,2019,Q3,dehradun,486157
+uttarakhand,2019,Q4,dehradun,537026
+uttarakhand,2020,Q1,dehradun,593420
+uttarakhand,2020,Q2,dehradun,649026
+uttarakhand,2020,Q3,dehradun,711303
+uttarakhand,2020,Q4,dehradun,779564
+uttarakhand,2021,Q1,dehradun,840361
+uttarakhand,2021,Q2,dehradun,898504
+uttarakhand,2021,Q3,dehradun,963594
+uttarakhand,2021,Q4,dehradun,1028085
+uttarakhand,2022,Q1,dehradun,1088710
+uttarakhand,2022,Q2,dehradun,1146386
+uttarakhand,2022,Q3,dehradun,1205785
+uttarakhand,2022,Q4,dehradun,1262999
+uttarakhand,2023,Q1,dehradun,1318049
+uttarakhand,2023,Q2,dehradun,1367275
+west-bengal,2018,Q1,north twenty four parganas,396980
+west-bengal,2018,Q2,north twenty four parganas,572438
+west-bengal,2018,Q3,north twenty four parganas,722572
+west-bengal,2018,Q4,north twenty four parganas,946634
+west-bengal,2019,Q1,north twenty four parganas,1130983
+west-bengal,2019,Q2,north twenty four parganas,1312362
+west-bengal,2019,Q3,north twenty four parganas,1478650
+west-bengal,2019,Q4,north twenty four parganas,1638605
+west-bengal,2020,Q1,north twenty four parganas,1789973
+west-bengal,2020,Q2,north twenty four parganas,1966125
+west-bengal,2020,Q3,north twenty four parganas,2143943
+west-bengal,2020,Q4,north twenty four parganas,2321888
+west-bengal,2021,Q1,north twenty four parganas,2491076
+west-bengal,2021,Q2,north twenty four parganas,2660664
+west-bengal,2021,Q3,north twenty four parganas,2852030
+west-bengal,2021,Q4,north twenty four parganas,3043008
+west-bengal,2022,Q1,north twenty four parganas,3224459
+west-bengal,2022,Q2,north twenty four parganas,3397791
+west-bengal,2022,Q3,north twenty four parganas,3578500
+west-bengal,2022,Q4,north twenty four parganas,3755017
+west-bengal,2023,Q1,north twenty four parganas,3926974
+west-bengal,2023,Q2,north twenty four parganas,4079270
