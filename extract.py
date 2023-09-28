@@ -6,7 +6,7 @@ import re
 
 
 # driver function
-def to_csv(main_path,function1,function2):
+def to_csv(main_path,dest_path,function1,function2):
     """ 
     Fun descritpion: this function takes 
     user defined functions as parameters
@@ -22,7 +22,8 @@ def to_csv(main_path,function1,function2):
     main_path=main_path
     result=function1(main_path,function2)
     csv_name=function2.__name__
-    csv_path=os.path.join("G:\phonepe project\data",csv_name)
+    extention=csv_name+".csv"
+    csv_path=os.path.join(dest_path,extention)
     result.to_csv(csv_path,index=False)
 
 
