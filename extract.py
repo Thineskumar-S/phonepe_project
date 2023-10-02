@@ -416,9 +416,11 @@ def top_trans_states_pincodes(data,file_path):
     pincodes=len(data['data']['pincodes'])
     all_data_pincodes=[]             
     for pincode in range(pincodes):
-        extracted_data_pincodes={'pincodes':data['data']['pincodes'][pincode]['entityName'],
-                    'count':data['data']['pincodes'][pincode]['metric']['count'],
-                    'amount':data['data']['pincodes'][pincode]['metric']['amount']}
+        extracted_data_pincodes={"state":state, "year":year,'Quater':formatted_quarter,
+                                 'pincodes':data['data']['pincodes'][pincode]['entityName'],
+                                'count':data['data']['pincodes'][pincode]['metric']['count'],
+                                'amount':data['data']['pincodes'][pincode]['metric']['amount']
+                                 }
         all_data_pincodes.append(extracted_data_pincodes)
     return all_data_pincodes
 
