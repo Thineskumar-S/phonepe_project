@@ -96,16 +96,17 @@ def agg_trans_years(data,file_path):
 
     s_time=datetime.datetime.fromtimestamp(start_time_seconds)
     e_time=datetime.datetime.fromtimestamp(end_time_seconds)
+    year=s_time.year
     # Define a function to find the quarter for a given month
     def find_quarter(month):
         if month in range(1, 4):
-            return 'Q1 (J,F,M) '
+            return 'Q1'
         elif month in range(4, 7):
-            return 'Q2 (A,M,J) '
+            return 'Q2'
         elif month in range(7, 10):
-            return 'Q3 (J,A,S)'
+            return 'Q3'
         else:
-            return 'Q4 (O,N,D)'
+            return 'Q4'
 
     # Find the quarters for the given timestamps
     quarter1 = find_quarter(s_time.month)
@@ -120,7 +121,7 @@ def agg_trans_years(data,file_path):
     total_data=[]
     for i in range(length):
 
-        extracted_data={'Time':s_time,
+        extracted_data={'year':year,
         "Quater":common_quarter,
         'categories':data['data']['transactionData'][i]['name'],
         'type':data['data']['transactionData'][i]['paymentInstruments'][0]['type'],
@@ -147,13 +148,13 @@ def agg_trans_years_states(data,file_path):
     # Define a function to find the quarter for a given month
     def find_quarter(month):
         if month in range(1, 4):
-            return 'Q1 (J,F,M) '
+            return 'Q1'
         elif month in range(4, 7):
-            return 'Q2 (A,M,J) '
+            return 'Q2 '
         elif month in range(7, 10):
-            return 'Q3 (J,A,S)'
+            return 'Q3'
         else:
-            return 'Q4 (O,N,D)'
+            return 'Q4'
 
     # Find the quarters for the given timestamps
     quarter1 = find_quarter(s_time.month)
@@ -168,7 +169,7 @@ def agg_trans_years_states(data,file_path):
     total_data=[]
     for i in range(length):
 
-        extracted_data={'state':state,'Time':s_time,
+        extracted_data={'state':state,'year':s_time.year,
         "Quater":common_quarter,
         'categories':data['data']['transactionData'][i]['name'],
         'type':data['data']['transactionData'][i]['paymentInstruments'][0]['type'],
@@ -262,7 +263,6 @@ main_path="G:\phonepe project\pulse\data\map\transaction\hover\country\india"
 
 def map_trans_years(data,file_path):
     pattern = r'\\(\d{4})\\(\d+)\.json'
-
 
     match = re.search(pattern, file_path)
     if match:
