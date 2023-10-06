@@ -36,11 +36,11 @@ def run():
                                     col1,col2,col3=st.columns(3)
                                     with col1:
                                         options=["transaction", "user"]
-                                        selected1=st.selectbox("Choose to view",options,placeholder="transaction")
+                                        selected1=st.selectbox("Choose to view",options,index=None,placeholder="Deafult: transaction")
                                         year=[2018,2019,2020,2021,2022,2023]
-                                        selected2=st.selectbox("choose the year",year,index=None,placeholder="default: 2023")
+                                        selected2=st.selectbox("choose the year",year,index=None,placeholder="Default: 2023")
                                         quaters=["Q1","Q2","Q3","Q4"]
-                                        selected3=st.selectbox("Choose the quater",quaters,index=None,placeholder="defalut: Q2" )
+                                        selected3=st.selectbox("Choose the quater",quaters,index=None,placeholder="Defalut: Q2" )
 
                                         reseted=st.button("Reset",type="primary")
                                         if reseted:
@@ -58,10 +58,10 @@ def run():
                                                          total_trans=result[0]
                                                          total_amount=result[1]
                                                          average_amount_per_trans=result[2]
-                                                         st.header("Transactions")
+                                                         st.header(f"Transactions")
                                                          st.write("All PhonePe transactions (UPI + Cards + Wallets)")
                                                          st.write(total_trans)
-                                                         st.write("Total Payment Value")
+                                                         st.write(f"Total Payment Value ")
                                                          st.write(total_amount)
                                                          st.write("Avg.transaction value")
                                                          st.write(average_amount_per_trans)
@@ -71,8 +71,9 @@ def run():
                                                          registered_users=result[0]
                                                          app_opens=result[1]
                                                          st.header("users")
-                                                         st.write("Registered PhonePe users")
+                                                         st.write(f"Registered PhonePe users ")
                                                          st.write(registered_users)
+                                                         st.write(f'Phonepe App Opens ')
                                                          st.write(app_opens)
        
                                                   st.divider()
@@ -88,18 +89,32 @@ def run():
                                                         tab9,tab10,tab11=st.tabs(["States","Districts","Postal Codes"])
                                                         with tab9:
                                                               st.header("Top 10 states")
+                                                              result1=get_top10_states(selected1,selected2,selected3)
+                                                              result1=pd.DataFrame(result1)
+                                                              st.write(result1)
                                                         
                                                         with tab10:
-                                                        
-                                                               #dynamic
                                                                st.header("Top 10 Districts")
+                                                               result2=get_top10_states(selected1,selected2,selected3)
+                                                               result2=pd.DataFrame(result2)
+                                                               st.write(result2)
+
                                                         with tab11:
-                                                        # dynamic
-                                                         st.header("Postal Codes")  
+                                                              
+                                                        
+                                                               result3=get_top_10_pincodes(selected1,selected2,selected3)
+                                                               st.header("Postal Codes.")  
+                                                               st.write(result3)
+                                                               
                                                   else: 
                                                         tab9,tab10,tab11=st.tabs(["States","Districts","Postal Codes"])
                                                         with tab9:
                                                               st.header("Top 10 States")
+                                                              result1=get_top_10_user_states(selected1,selected2,selected3)
+                                                              result1=pd.DataFrame(result1)
+                                                              result1.reset_index(drop=True,inplace=True)
+                                                              st.write(result1)
+
                                                         
                                                         with tab10:
                                                                #dynamic
