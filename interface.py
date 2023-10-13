@@ -1,6 +1,6 @@
 import pandas as pd
-import numpy as np
 import mysql.connector
+
 
 
 connection_string="phonepeproject.cwoakibr9oeh.ap-south-1.rds.amazonaws.com"
@@ -92,7 +92,7 @@ def get_transactions(selected1,selected2,selected3):
          elif selected2!=None:
                     query='select * from agg_trans_years'
                     df=pd.read_sql(query,connection_object)
-                    selected='Q4'
+                    selected3='Q4'
                     filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]
                     total_tranaction=filtered_df['count'].sum()
                     total_amount=filtered_df['amount'].sum()
@@ -113,8 +113,6 @@ def get_transactions(selected1,selected2,selected3):
                     cc=cat_trans_amount.copy()
                     cc.reset_index(drop=True, inplace=True)
                     return total_tranaction,total_amount,average_amount_per_trans,cc
-
-
     else:
          if selected2==None and selected3==None:
             query='select * from agg_user_years'
@@ -137,7 +135,7 @@ def get_transactions(selected1,selected2,selected3):
          elif selected2 != None and selected3 != None:
             query='select * from agg_user_years'
             df=pd.read_sql(query,connection_object)
-            filtered_df=df[(df['year']==selected2)&(df['Quater']==selected2)]
+            filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]
             total_user=(filtered_df['users'].unique())
             total_app_opens=(filtered_df['app_opens'].unique())
             return total_user,total_app_opens
@@ -149,14 +147,31 @@ def get_transactions(selected1,selected2,selected3):
             total_user=(filtered_df['users'].unique())
             total_app_opens=(filtered_df['app_opens'].unique())
             return total_user,total_app_opens
-         elif selected1=='user' and selected2!= None and selected3 !=None:
+         elif selected2!= None and selected3 !=None:
             query='select * from agg_user_years'
             df=pd.read_sql(query,connection_object)
             filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]
             total_user=(filtered_df['users'].unique())
             total_app_opens=(filtered_df['app_opens'].unique())
-            return total_user,total_app_opens              
-
+            return total_user,total_app_opens
+         elif selected2!=None:
+              query='select * from agg_user_years'
+              df=pd.read_sql(query,connection_object)
+              selected3='Q4'
+              filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]
+              total_user=(filtered_df['users'].unique())
+              total_app_opens=(filtered_df['app_opens'].unique())
+              return total_user,total_app_opens
+         elif selected3!=None:
+              query='select * from agg_user_years'
+              df=pd.read_sql(query,connection_object)
+              selected2=2023
+              filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]
+              total_user=(filtered_df['users'].unique())
+              total_app_opens=(filtered_df['app_opens'].unique())
+              return total_user,total_app_opens
+              
+            
 
 def get_top10_states(selected1,selected2,selected3):
     
@@ -390,7 +405,7 @@ def get_top_10_user_states (selected1,selected2,selected3):
         elif selected2 != None and selected3 != None:
             query="select * from top_user_year_state"
             df=pd.read_sql(query,connection_object)
-            filtered_df=df[(df['year']==selected2)&(df['Quater']==selected2)]            
+            filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]            
             top_10_user_states=filtered_df.nlargest(10,'registered_users')[["state",'registered_users']]
             return top_10_user_states
         elif selected2 !=None and selected3==None:
@@ -405,21 +420,104 @@ def get_top_10_user_states (selected1,selected2,selected3):
             df=pd.read_sql(query,connection_object)
             filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]            
             top_10_user_states=filtered_df.nlargest(10,'registered_users')[["state",'registered_users']]
-            return top_10_user_states              
+            return top_10_user_states          
+
+
+def get_top_10_user_district (selected1,selected2,selected3):
+                    
+
+        if selected2==None and selected3==None:
+            query="select * from top_user_year_district"
+            df=pd.read_sql(query,connection_object)
+            selected2=2023
+            selected3="Q2"
+            filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]
+            top_10_user_district=filtered_df.nlargest(10,'registred_users')[["district",'registred_users']]     
+            top_10_user_district.reset_index(drop=True,inplace=True)
+            return top_10_user_district
+        elif selected2==None and selected3!=None:
+            query="select * from top_user_year_district"
+            df=pd.read_sql(query,connection_object)
+            selected2=2023
+            filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]
+            top_10_user_district=filtered_df.nlargest(10,'registred_users')[["district",'registred_users']]
+            top_10_user_district.reset_index(drop=True,inplace=True)
+            return top_10_user_district
+            
+        elif selected2 != None and selected3 != None:
+            query="select * from top_user_year_district"
+            df=pd.read_sql(query,connection_object)
+            filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)] 
+            top_10_user_district=filtered_df.nlargest(10,'registred_users')[["district",'registred_users']]           
+            top_10_user_district.reset_index(drop=True,inplace=True)
+            return top_10_user_district
+        elif selected2 !=None and selected3==None:
+            query="select * from top_user_year_district"
+            df=pd.read_sql(query,connection_object)
+            selected3="Q4"
+            filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]    
+            top_10_user_district=filtered_df.nlargest(10,'registred_users')[["district",'registred_users']]
+            top_10_user_district.reset_index(drop=True,inplace=True)
+            return top_10_user_district
+        elif selected1=='user' and selected2!= None and selected3 !=None:
+            query="select * from top_user_year_district"
+            df=pd.read_sql(query,connection_object)
+            filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]
+            top_10_user_district=filtered_df.nlargest(10,'registred_users')[["district",'registred_users']]
+            top_10_user_district.reset_index(drop=True,inplace=True)
+            return top_10_user_district
+
+
+
+def get_top_10_user_pincode(selected1,selected2,selected3):
+
+
+
+
+    if selected2==None and selected3==None:
+        query="select * from top_user_year_pincode"
+        df=pd.read_sql(query,connection_object)
+        selected2=2023
+        selected3="Q2"
+        filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]
+        top_10_user_pincode=filtered_df.nlargest(10,'registred_user')[["pincode",'registred_user']]     
+        top_10_user_pincode.reset_index(drop=True,inplace=True)
+        return top_10_user_pincode
+    elif selected2==None and selected3!=None:
+        query="select * from top_user_year_pincode"
+        df=pd.read_sql(query,connection_object)
+        selected2=2023
+        filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]
+        top_10_user_pincode=filtered_df.nlargest(10,'registred_user')[["pincode",'registred_user']]     
+        top_10_user_pincode.reset_index(drop=True,inplace=True)
+        return top_10_user_pincode  
+    elif selected2 != None and selected3 != None:
+        query="select * from top_user_year_pincode"
+        df=pd.read_sql(query,connection_object)
+        filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)] 
+        top_10_user_pincode=filtered_df.nlargest(10,'registred_user')[["pincode",'registred_user']]     
+        top_10_user_pincode.reset_index(drop=True,inplace=True)
+        return top_10_user_pincode
+    elif selected2 !=None and selected3==None:
+        query="select * from top_user_year_pincode"
+        df=pd.read_sql(query,connection_object)
+        selected3="Q4"
+        filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]    
+        top_10_user_pincode=filtered_df.nlargest(10,'registred_user')[["pincode",'registred_user']]     
+        top_10_user_pincode.reset_index(drop=True,inplace=True)
+        return top_10_user_pincode
+    elif selected1=='user' and selected2!= None and selected3 !=None:
+        query="select * from top_user_year_pincode"
+        df=pd.read_sql(query,connection_object)
+        filtered_df=df[(df['year']==selected2)&(df['Quater']==selected3)]
+        top_10_user_pincode=filtered_df.nlargest(10,'registred_user')[["pincode",'registred_user']]     
+        top_10_user_pincode.reset_index(drop=True,inplace=True)
+        return top_10_user_pincode
 
 
 
 
 
-
-
-
-
-"""
-def get_top_10_user_districts(selected1,selected2,selected3):
-     top_10_user_districts=filtered_df.groupby('district')['registred_users'].agg(sum).nlargest(10)
-return top_10_user_districts
-"""
 
                         
      
