@@ -42,7 +42,7 @@ The ETL (Extract, Transform, Load) process in this project is as follows:
 
 The heart of this project is the dynamic dashboard that consists of three key elements:
 
-1. **User Options 🧐:** Users can choose years, quarters, and major transaction categories according to their preferences.
+1. **User Options 🧐:** According to the user preferences, Users can choose years, quarters, and major categories as transactions and users.
 
 2. **Dynamic Choropleth Chart 🗺️:** The chart dynamically updates values based on user selections, for better and clear visualtion I added this chart in maps tab.
 
