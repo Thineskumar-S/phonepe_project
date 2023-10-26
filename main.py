@@ -168,10 +168,32 @@ def run():
 
                     with tab3:    
                                 st.header("Map")
-                                st.plotly_chart(map_fig,theme=None,use_container_width=True)
+                                st.plotly_chart(map_fig,theme='streamlit',use_container_width=True)
                     with tab4:
                             with st.container():
-                                st.header("INSIGHTS")
+                                st.header("Visual INSIGHTS")
+                                tab1,tab2=st.tabs(['Overall-Data Viz ',"Speicific Data - Viz"])
+                                with tab1:
+                                      st.header("Overall-Data visualisation")
+                                      result=get_overall()
+                                      with st.container():
+                                            col1,col2=st.columns(2)
+                                            with col1:
+                                              st.plotly_chart(result[0],theme='streamlit',use_container_width=True)
+                                            with col2:
+                                                  st.plotly_chart(result[1],theme='streamlit',use_container_width=True)
+                                      with st.container():
+                                              col1, col2=st.columns(2)
+                                              with col1:
+                                                    st.plotly_chart(result[2],theme='streamlit',use_container_width=True)
+                                              with col2:
+                                                    st.plotly_chart(result[3],theme='streamlit',use_container_width=True)
+
+                                with tab2:
+                                      st.header("Specific - Data visualisation")
+
+                            #with st.container():
+                                  
 
             
 

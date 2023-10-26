@@ -232,3 +232,47 @@ def get_map(selected1,selected2,selected3):
             fig.update_geos(fitbounds="locations", visible=False)
             fig.update_layout(title_text=f'{selected2} {selected3}users -  State wise data (Hover for breakdown)')  
             return fig            
+"""
+End of map_display
+"""
+
+"""
+Viz - Insights
+"""
+def get_overall():
+      query='Select * from agg_trans_years'
+      df=pd.read_sql(query,connection_object)
+      df2=df.groupby(['year','Quater'])[['amount','count']].agg(sum)
+      x_values = df2.index.get_level_values(0)
+      quater=df2.index.get_level_values(1)
+      fig=px.bar(x=x_values,y=df2['amount'],color=quater,title="overall Tranascation amount")
+      fig.update_layout(
+         xaxis_title="Year",
+         yaxis_title="Amount"
+      )
+      fig1=px.bar(x=x_values,y=df2['count'],color=quater,title='Overall Transaction count')
+      fig1.update_layout(
+         xaxis_title="Year",
+         yaxis_title="Count"
+      )
+      
+      query2='Select * from agg_user_years'
+      df3=pd.read_sql(query2,connection_object)
+      df4=df3.groupby(['year','Quater'])[['count','percentage']].agg(sum)
+      x_values = df4.index.get_level_values(0)
+      quater=df4.index.get_level_values(1)
+      fig2=px.bar(x=x_values,y=df4['count'],color=quater,title='Overall user count')
+      fig2.update_layout(
+         xaxis_title="Year",
+         yaxis_title="Count"
+      )
+      df5=df3.groupby('brand')[['count','percentage']].agg(sum)
+      x_values = df5.index.get_level_values(0)
+      fig3=px.bar(x=x_values,y=df5['count'],title='Overall device users  count')
+      fig3.update_layout(
+         xaxis_title="brand",
+         yaxis_title="Count"
+      )
+
+
+      return fig,fig1,fig2,fig3
