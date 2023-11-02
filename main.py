@@ -41,14 +41,14 @@ def run():
                                           with col__:
                                                 col,col1=st.columns(2)
                                                 with col:       
-                                                        image_path=r"pics\Screenshot-2023-10-13-140422.jpeg"
+                                                        image_path=r"phone project\pics\Screenshot-2023-10-13-140422.jpeg"
                                                         img=Image.open(image_path)
                                                         st.image(img, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
                                                         with st.container():
                                                           st.write(' ')
                                                           st.header('This project is inspired from Phonepe pulse')
                                                 with col1:
-                                                      image_path=r"pics\Screenshot 2023-10-13 133528.png"
+                                                      image_path=r"phone project\pics\Screenshot 2023-10-13 133528.png"
                                                       img=Image.open(image_path)
                                                       st.image(img)
                                                       with st.container():
