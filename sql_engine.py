@@ -100,5 +100,5 @@ def load_data(create_query,file_path):
         cursor_object.execute(create_query)
         x=[tuple(row) for row in csv_reader]
         cursor_object.executemany(insert_query,x)
-        connection.commit()
+        connection_object.commit()
             
