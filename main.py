@@ -133,8 +133,6 @@ def run():
                                                                st.write(result2)
 
                                                         with tab11:
-                                                              
-                                                        
                                                                result3=get_top_10_pincodes(selected1,selected2,selected3)
                                                                st.header("Postal Codes.")  
                                                                st.write(result3)
